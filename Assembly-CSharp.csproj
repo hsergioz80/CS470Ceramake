@@ -59,6 +59,8 @@
      <Compile Include="Assets\Holograms\Support\Spatial Mapping\SpatialMapping.cs" />
      <Compile Include="Assets\Holograms\Support\Underworld\UnderworldReset.cs" />
      <Compile Include="Assets\Holograms\Support\Underworld\UnderworldSound.cs" />
+     <Compile Include="Assets\Scripts\Billboard.cs" />
+     <Compile Include="Assets\Scripts\CameraCache.cs" />
      <Compile Include="Assets\Scripts\GazeGestureManager.cs" />
      <Compile Include="Assets\Scripts\SimpleTagalong.cs" />
      <Compile Include="Assets\Scripts\SpeechManager.cs" />
