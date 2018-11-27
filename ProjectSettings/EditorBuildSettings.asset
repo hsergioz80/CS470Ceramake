@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Origami.unity
+    guid: d8b2e5ad211a0b54ca397c702a8f1369
+  - enabled: 0
+    path: Assets/Scenes/Tutorials.unity
+    guid: e71120bc4b40b4e38a36089636001cee
+  - enabled: 1
+    path: Assets/Scenes/Centering.unity
+    guid: 28063e129eb3e9e4793e7ed4bad99de8
+  - enabled: 1
+    path: Assets/Scenes/TutorialsV1.unity
+    guid: 8377503c1efacb540a75559f42cb3286
+  m_configObjects: {}
