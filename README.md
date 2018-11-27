@@ -1,17 +1,26 @@
 # CS470HoloLensProject
 
+11/26/2018 (2) (some fixes, "X" placed next to done items below):
+- cursor actually fixed now on menus
+- music restarts on Tutorial Menu screen when returning from video
+- adjusted positioning of Tutorials menu
+- Tagalong and Billboard scripts removed from existing video scene
+
+_________________________________________________________
 
 
-11/26/2018:
 
-- Confirmed features and scenes of current build all work as expected in HoloLens this morning
+11/26/2018 (1):
+
+Confirmed features and scenes of current build all work as expected in HoloLens this morning
 
  I was reminded of some other tasks to be done:
-- Fix cursor so it appears all the time on menu screens (it appears just fine on the "Centering" scene so I'm certain it has to do with the fact that there is a 3D object present, and gazing at it is what triggers the cursor to be displayed)
 
-- Optional: music doesn't restart when returning "Back" from the "Centering" scene to the "Tutorials" menu.  This whole persistance of the music playing throughout the menus thing was tricky to figure out so this could be tricky as well but, should be doable (though not the most important thing to focus on)
+X - Fix cursor so it appears all the time on menu screens (it appears just fine on the "Centering" scene so I'm certain it has to do with the fact that there is a 3D object present, and gazing at it is what triggers the cursor to be displayed)
 
-- Make some minor adjustments to positioning of Tutorials menu - move it slightly lower, as it gets displayed slightly higher out of view when loading compared to the position of the main menu
+X - Optional: music doesn't restart when returning "Back" from the "Centering" scene to the "Tutorials" menu.  This whole persistance of the music playing throughout the menus thing was tricky to figure out so this could be tricky as well but, should be doable (though not the most important thing to focus on)
+
+X - Make some minor adjustments to positioning of Tutorials menu - move it slightly lower, as it gets displayed slightly higher out of view when loading compared to the position of the main menu
 - Make some minor adjustments to video size and position - it's not perfectly aligned with the buttons
 
 
@@ -19,7 +28,7 @@
 _________________________________________________________
 
 11/25/2018 (some things to be done):
-- remove tagalong and billboard scripts for the video scenes as we don't want those following the user's gaze
+X - remove tagalong and billboard scripts for the video scenes as we don't want those following the user's gaze
 
 - add features/scripts to allow user to play and pause video by clicking on it (should be easily done by placing an invisible button ontop of/in front of the video display and making an OnClick script to govern the playing and pausing) (bonus: add voice recognition for playing and pausing!)
 

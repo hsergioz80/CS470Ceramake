@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{96B0B39C-A33C-A6B0-44DA-E4DD85708A17}</ProjectGuid>
+    <ProjectGuid>{028057E8-5008-2366-F152-47E4DA3E65CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -72,16 +72,16 @@
      <Compile Include="Assets\Scripts\TutorialNav.cs" />
      <Compile Include="Assets\Scripts\WorldCursor.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/df_sp/SSU Stuff/CS470/CeraMakeV1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/df_sp/SSU Stuff/CS470/CeraMakeV2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/df_sp/SSU Stuff/CS470/CeraMakeV1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/df_sp/SSU Stuff/CS470/CeraMakeV2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/df_sp/SSU Stuff/CS470/CeraMakeV1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/df_sp/SSU Stuff/CS470/CeraMakeV2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/df_sp/SSU Stuff/CS470/CeraMakeV1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/df_sp/SSU Stuff/CS470/CeraMakeV2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>

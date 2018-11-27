@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Centering.unity
+- path: Assets/Scenes/TutorialsV1.unity
   isLoaded: 1
   isActive: 1
