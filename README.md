@@ -7,7 +7,10 @@
 - Tagalong and Billboard scripts remain in existing video scene BUT, are used differently now... (see below)
 
 So, in attempting to allow the user to manipulate and move the video window around, I encountered a slew of compilation errors when importing the necessary scripts.  Each one I added, brought more errors with it.  After an hour, I got the errors down to 2 before I hit the final roadblock.  2 hours later trying to get passed it and I had gotten nowhere.
-So, I was ready to scrap the feature altogether when I thought to myself, "Why not leave the Tagalong scripts in place, but allow the user to disable them when they've gazed to a position where they'd like the video to remain?"  Thus, the "AchorVideo" script was born.  It's applied to the "CenteringTitle" button which was previously disabled as a button since I was simply using it to display the title of the video, but now, when the user clicks on it, it disabled all the Tagalong-related scripts on the Canvas, leaving the everything in place.  When clicked again, it re-enables those scripts and everything followings your gaze once more.  It's not nearly as robust (or cool) as grabbing it with your hand and moving it around but...it's a super simple solution that does mostly what we want.
+
+So, I was ready to scrap the feature altogether when I thought to myself, "Why not leave the Tagalong scripts in place, but allow the user to disable them when they've gazed to a position where they'd like the video to remain?"  Thus, the "AchorVideo" script was born.  It's applied to the "CenteringTitle" button which was previously disabled as a button
+since I was simply using it to display the title of the video, but now, when the user clicks on it, it disables all the Tagalong-related scripts on the Canvas, leaving the everything in place.  When clicked again, it re-enables those scripts and everything followings your gaze once more.  It's not nearly as robust (or cool) as grabbing it with your hand
+and moving it around but...it's a super simple solution that does mostly what we want.
 
 _________________________________________________________
 
@@ -37,7 +40,7 @@ _________________________________________________________
 
 - add features/scripts to allow user to navigate through the video incrementally (maybe forward/backward movement 10 seconds at a time) (bonus: voice recognition for this)
 
-- allow user to move and rotate video scenes
+- (X) allow user to move and rotate video scenes
 
 
 
