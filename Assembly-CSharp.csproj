@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\CameraCache.cs" />
      <Compile Include="Assets\Scripts\GazeGestureManager.cs" />
      <Compile Include="Assets\Scripts\MenuMusic.cs" />
+     <Compile Include="Assets\Scripts\PlayPauseVideo.cs" />
      <Compile Include="Assets\Scripts\QuitApp.cs" />
      <Compile Include="Assets\Scripts\SimpleTagalong.cs" />
      <Compile Include="Assets\Scripts\SpeechManager.cs" />
