@@ -4,6 +4,7 @@
 - Got Playing and Pausing videos working!  A new script "PlayPauseVideo" is attached to the VideoPlayer object now that, on a click, finds the video that's playing, and pauses
 it if it's playing, or resumes playing if it was paused.  The user must click anywhere on the video to do this but, it'd be really easy to make it so they can actually click
 anywhere off screen as well.  I did it that way initially (by accident) but figured it could potentially mess with some of the other button functions.
+- Got Play and Pause buttons overlayed on the video for when a user hovers or clicks to play or pause...working on skip forward and skip back function...
 
 11/26/2018 (2) (some fixes, "X" placed next to done items below):
 - cursor actually fixed now on menus
