@@ -1,5 +1,10 @@
 # CS470HoloLensProject
 
+11/28/2018:
+- Added purely visual lock/unlock images along both sides of video title area to indicate when the window is locked (or unlocked) from a gaze position
+- Added a button click sound for most buttons (having an issue getting it to work on things like the skip fwd and skip back images...
+- Still need to duplicate video scenes but, shouldn't take long to do later today
+
 11/27/2018:
 - Got Playing and Pausing videos working!  A new script "PlayPauseVideo" is attached to the VideoPlayer object now that, on a click, finds the video that's playing, and pauses
 it if it's playing, or resumes playing if it was paused.  The user must click anywhere on the video to do this but, it'd be really easy to make it so they can actually click
