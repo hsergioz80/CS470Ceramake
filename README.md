@@ -5,6 +5,9 @@
 it if it's playing, or resumes playing if it was paused.  The user must click anywhere on the video to do this but, it'd be really easy to make it so they can actually click
 anywhere off screen as well.  I did it that way initially (by accident) but figured it could potentially mess with some of the other button functions.
 - Got Play and Pause buttons overlayed on the video for when a user hovers or clicks to play or pause...working on skip forward and skip back function...
+- Got skipping Forward and Backward implemented ("SkipForwardBackward" script applied to transparent SkipBack and SkipForward buttons)
+- One thing I'd like to do is show the video progress in the form of "current time/total time" but, it's not critical
+- Just need to duplicate video scenes and add buttons for them on tutorial menu and this is done!
 
 11/26/2018 (2) (some fixes, "X" placed next to done items below):
 - cursor actually fixed now on menus
@@ -47,7 +50,7 @@ _________________________________________________________
 - (X) add features/scripts to allow user to play and pause video by clicking on it (should be easily done by placing an invisible button ontop of/in front of the video display and
 making an OnClick script to govern the playing and pausing) (bonus: add voice recognition for playing and pausing!)
 
-- add features/scripts to allow user to navigate through the video incrementally (maybe forward/backward movement 10 seconds at a time) (bonus: voice recognition for this)
+- (X) add features/scripts to allow user to navigate through the video incrementally (maybe forward/backward movement 10 seconds at a time) (bonus: voice recognition for this)
 
 - (X) allow user to move and rotate video scenes
 

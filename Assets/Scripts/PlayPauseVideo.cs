@@ -21,7 +21,7 @@ public class PlayPauseVideo : MonoBehaviour {
         // set the playButtonObject
         playButtonObject = GameObject.Find("PlayButton");
         // set the videoObject to the video being played
-        videoObject = GameObject.Find("(01) Centering v2");
+        //videoObject = GameObject.Find("(01) Centering v2");
         // play button is not being displayed initially, so set it to false
         playButtonDisplaying = false;
     }
