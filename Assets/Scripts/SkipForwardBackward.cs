@@ -13,7 +13,7 @@ public class SkipForwardBackward : MonoBehaviour {
     // In the Unity inspector, assign a value to only one of these ints, NOT BOTH
     public int secondsToSkipBack; // number of seconds to skip backward
     public int secondsToSkipForward; // number of seconds to skip forward
-
+    /*
 	void OnMouseOver()
     {
         if (skipBackNorm != null)
@@ -29,7 +29,17 @@ public class SkipForwardBackward : MonoBehaviour {
         if (skipForwardNorm != null)
             skipForwardNorm.GetComponent<Renderer>().enabled = false;
     }
-	
+    */
+    public void SkipBack()
+    {
+        videoObject.gameObject.GetComponent<VideoPlayer>().time -= secondsToSkipBack;
+    }
+
+    public void SkipForward()
+    {
+        videoObject.gameObject.GetComponent<VideoPlayer>().time += secondsToSkipForward;
+    }
+	/*
 	// Update is called once per frame
 	void Update ()
     {
@@ -47,6 +57,6 @@ public class SkipForwardBackward : MonoBehaviour {
                 videoObject.gameObject.GetComponent<VideoPlayer>().time += secondsToSkipForward;
             }
         }
-    }
+    }*/
 
 }

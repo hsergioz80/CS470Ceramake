@@ -4,6 +4,7 @@
 - Added purely visual lock/unlock images along both sides of video title area to indicate when the window is locked (or unlocked) from a gaze position
 - Added a button click sound for most buttons (having an issue getting it to work on things like the skip fwd and skip back images...
 - Still need to duplicate video scenes but, shouldn't take long to do later today
+- Fixed issues with skip forward, skip back, play and pause functionality, finally
 
 11/27/2018:
 - Got Playing and Pausing videos working!  A new script "PlayPauseVideo" is attached to the VideoPlayer object now that, on a click, finds the video that's playing, and pauses

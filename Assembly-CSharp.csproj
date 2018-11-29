@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\PlayPauseVideo.cs" />
      <Compile Include="Assets\Scripts\QuitApp.cs" />
      <Compile Include="Assets\Scripts\SimpleTagalong.cs" />
+     <Compile Include="Assets\Scripts\SkipButtonMouseOver.cs" />
      <Compile Include="Assets\Scripts\SkipForwardBackward.cs" />
      <Compile Include="Assets\Scripts\SpeechManager.cs" />
      <Compile Include="Assets\Scripts\SphereCommands.cs" />
